@@ -22,7 +22,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <motion.a
-              href="https://github.com/nebathussen"
+              href="https://github.com/nebutty"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
@@ -32,7 +32,7 @@ export function Footer() {
               <Github size={20} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/nebathussen"
+              href="https://www.linkedin.com/in/nebat-hussen-48a952295/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
@@ -51,13 +51,7 @@ export function Footer() {
             </motion.a>
           </div>
 
-          {/* Copyright */}
-          <div className="text-sm text-muted-foreground text-center md:text-right">
-            <p className="flex items-center gap-1 justify-center md:justify-end">
-              Built with <Heart size={14} className="text-primary" /> using Next.js & Tailwind CSS
-            </p>
-            <p className="mt-1">© {currentYear} Nebat Hussen Yimam. All rights reserved.</p>
-          </div>
+        
         </div>
       </div>
     </footer>
