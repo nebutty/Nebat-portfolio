@@ -7,6 +7,24 @@ import { Github, ExternalLink, Folder } from "lucide-react"
 
 const projects = [
   {
+  title: "Smart House Rental Platform",
+  description:
+    "A full-stack rental platform that enables users to discover, list, and manage rental properties. Developed the backend APIs with secure authentication, property management, appointment scheduling, messaging, payments, and AI-powered property recommendations.",
+  tech: [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma",
+    "React",
+    "Tailwind CSS",
+    "Socket.IO",
+    "JWT"
+  ],
+  github: "https://github.com/SmartHouseRental",
+  demo: "https://shr-frontend.vercel.app/",
+  featured: true,
+},
+  {
     title: "NewsBrief",
     description:
       "AI-powered news summarizer delivering offline Amharic and English news briefs for users in low-connectivity regions.",
